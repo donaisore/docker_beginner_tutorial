@@ -1,0 +1,8 @@
+version: "3"
+services:
+  ruby:
+    build: ./ruby
+    image: study_group_ruby
+  python:
+    build: ./python
+    image: study_group_python
